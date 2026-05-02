@@ -1,0 +1,133 @@
+# Alacritty Configuration - Catppuccin Frappé
+# Place this file at: ~/.config/alacritty/alacritty.toml
+
+[window]
+dimensions = { columns = 120, lines = 35 }
+padding.x = 12
+padding.y = 10
+decorations = "full"
+opacity = 0.95
+blur = true
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
+size = 13.0
+
+[font.offset]
+x = 0
+y = 2
+
+# -----------------------------------------------
+# Catppuccin Frappé
+# -----------------------------------------------
+[colors.primary]
+background = "#303446"
+foreground = "#c6d0f5"
+
+[colors.cursor]
+text = "#303446"
+cursor = "#f2d5cf"
+
+[colors.vi_mode_cursor]
+text = "#303446"
+cursor = "#babbf1"
+
+[colors.search.matches]
+foreground = "#303446"
+background = "#a5adce"
+
+[colors.search.focused_match]
+foreground = "#303446"
+background = "#a6d189"
+
+[colors.footer_bar]
+background = "#292c3c"
+foreground = "#c6d0f5"
+
+[colors.hints.start]
+foreground = "#303446"
+background = "#e5c890"
+
+[colors.hints.end]
+foreground = "#303446"
+background = "#a5adce"
+
+[colors.selection]
+text = "#303446"
+background = "#babbf1"
+
+[colors.normal]
+black   = "#51576d"
+red     = "#e78284"
+green   = "#a6d189"
+yellow  = "#e5c890"
+blue    = "#8caaee"
+magenta = "#f4b8e4"
+cyan    = "#81c8be"
+white   = "#b5bfe2"
+
+[colors.bright]
+black   = "#626880"
+red     = "#e78284"
+green   = "#a6d189"
+yellow  = "#e5c890"
+blue    = "#8caaee"
+magenta = "#f4b8e4"
+cyan    = "#81c8be"
+white   = "#a5adce"
+
+[colors.dim]
+black   = "#51576d"
+red     = "#e78284"
+green   = "#a6d189"
+yellow  = "#e5c890"
+blue    = "#8caaee"
+magenta = "#f4b8e4"
+cyan    = "#81c8be"
+white   = "#b5bfe2"
+
+# -----------------------------------------------
+# Cursor
+# -----------------------------------------------
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 750
+unfocused_hollow = true
+
+# -----------------------------------------------
+# Scrolling
+# -----------------------------------------------
+[scrolling]
+history = 10000
+multiplier = 3
+
+# -----------------------------------------------
+# Key Bindings
+# -----------------------------------------------
+[keyboard]
+bindings = [
+  # Ctrl+Backspace → delete word to the left
+  { key = "Back", mods = "Control", chars = "\u0017" },
+
+  # Ctrl+Delete → delete word to the right
+  { key = "Delete", mods = "Control", chars = "\u001b[3;5~" },
+
+  # Ctrl+Left / Right → move by word
+  { key = "Left",  mods = "Control", chars = "\u001bb" },
+  { key = "Right", mods = "Control", chars = "\u001bf" },
+
+  # Ctrl+Shift+C/V → copy/paste
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+
+  # Ctrl+Shift+N → new window
+  { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+
+  # Ctrl++ / Ctrl+- → font size
+  { key = "Plus",  mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "Key0",  mods = "Control", action = "ResetFontSize" },
+]
