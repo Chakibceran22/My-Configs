@@ -1,0 +1,91 @@
+{
+   "checksum": "996853044a725686aa8263cbca77b133",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13412475168674460",
+            "date_last_used": "13413129505431674",
+            "guid": "ae571b03-7320-4440-b166-f9d7482ad909",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "My Classroom",
+            "type": "url",
+            "url": "https://classroom.google.com/c/ODE1OTE5ODMzMjQ4"
+         }, {
+            "date_added": "13414446245769615",
+            "date_last_used": "13421944190566104",
+            "guid": "9cb0e30d-2e3d-4c8f-9575-95e89de32efd",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Main Email",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13414446267940625",
+            "date_last_used": "13416162838983019",
+            "guid": "f4cd8e65-cb8d-4c7d-b5ef-fd94bb436434",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mimane Email",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/3/#inbox"
+         }, {
+            "date_added": "13414446325009830",
+            "date_last_used": "0",
+            "guid": "f445f4c8-6241-45ae-ba0b-ca413bcf0e0e",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/2/"
+         }, {
+            "date_added": "13414446328889340",
+            "date_last_used": "13415629893563773",
+            "guid": "eb3ebba6-fffa-49a2-8d34-2a3959024359",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Youtube Email",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/2/#inbox"
+         } ],
+         "date_added": "13412442840485214",
+         "date_last_used": "0",
+         "date_modified": "13414446328889340",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13412442840485214",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13412442840485214",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

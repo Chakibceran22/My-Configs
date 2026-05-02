@@ -1,0 +1,4 @@
+# Brave Extensions
+ahmpjcflkgiildlgicmcieglgoilbfdp  →  name__MSG_appName__
+nngceckbapebfimnlniiiahkandclblb  →  name__MSG_extName__
+olhelnoplefjdmncknfphenjclimckaf  →  nameCatppuccinChromeTheme-Frappe
