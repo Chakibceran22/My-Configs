@@ -4,5 +4,7 @@
     "window.menuBarVisibility": "compact",
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
-    "window.commandCenter": false
+    "window.commandCenter": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
 }
