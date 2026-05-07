@@ -18,7 +18,8 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
-
+export MICRO_TRUECOLOR=1
+export BAT_THEME="Catppuccin Frappe"
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -81,6 +82,10 @@ esac
 alias ll='eza -alF'
 alias la='eza -A'
 alias l='eza -CF'
+
+#Alias for batcat instead of cat
+alias cat="batcat"
+alias bat="batcat"
 #Alias for the ls tool using eza 
 alias ls='eza'
 # Add an "alert" alias for long running commands.  Use like so:
@@ -123,3 +128,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:/usr/local/go/bin
+eval "$(starship init bash)"
